@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <EditText
+            android:id="@+id/et_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:enabled="false"
+            android:gravity="end|center"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="42sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/normal_button"
+                android:text="AC" />
+
+            <Button
+                style="@style/normal_button"
+                android:text="+/-" />
+
+            <Button
+                style="@style/normal_button"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/b_bolish"
+                style="@style/normal_button"
+                android:text="÷" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                style="@style/normal_button"
+                android:text="7" />
+
+            <Button
+
+                style="@style/normal_button"
+                android:text="8" />
+
+            <Button
+                style="@style/normal_button"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/b_kopaytirish"
+                style="@style/normal_button"
+                android:text="x" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/b_four"
+                style="@style/normal_button"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/b_five"
+                style="@style/normal_button"
+                android:text="5" />
+
+            <Button
+                style="@style/normal_button"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/b_minus"
+                style="@style/normal_button"
+                android:text="-" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                style="@style/normal_button"
+                android:text="1" />
+
+            <Button
+
+                style="@style/normal_button"
+                android:text="2" />
+
+            <Button
+                style="@style/normal_button"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/b_plus"
+                style="@style/normal_button"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/normal_button"
+                android:text="0" />
+
+            <Button
+                android:enabled="false"
+                style="@style/other_button"
+                android:text="," />
+
+            <Button
+                android:id="@+id/b_equal"
+                style="@style/other_button"
+                android:text="=" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
